@@ -1,0 +1,32 @@
+Algoritmo Calculadora
+ Informatica para a internet
+ Claudio Iwakami
+ Data atual   05102020
+Var
+ Seção de Declarações das variáveis
+ Operadores  caractere
+ N1 , N2 , R  real
+
+Inicio
+ Seção de Comandos, procedimento, funções, operadores, etc...
+  Escreval (Bem vindo a calculadora do Matheus.)
+  Escreva (Digite o primeiro valor )
+  Leia (N1)
+  escreva (Digite o valor 2 )
+  Leia (N2)
+  escreva (Digite a operação +,-,, )
+  Leia (operadores)
+  se operadores = + entao
+  R - N1 + n2
+  fimse
+  se operadores = - entao
+  R - N1 - n2
+  fimse
+  se operadores =  entao
+  r - N1  N2
+  fimse
+  se operadores =  entao
+  R - N1  n2
+  fimse
+  escreva (Resultado , r)
+  Fimalgoritmo
