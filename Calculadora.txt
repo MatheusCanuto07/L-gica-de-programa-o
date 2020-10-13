@@ -1,0 +1,33 @@
+Algoritmo "Calculadora"
+// Informatica para a internet
+// Claudio Iwakami
+// Data atual  : 05/10/2020
+Var
+// Seção de Declarações das variáveis 
+ Operadores : caractere
+ N1 , N2 , R : real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+  Escreval ("Bem vindo a calculadora do Matheus.")
+  Escreva ("Digite o primeiro valor: ")
+  Leia (N1)
+  escreva ("Digite o valor 2: ")
+  Leia (N2)
+  escreva ("Digite a operação +,-,*,/: ")
+  Leia (operadores)
+  escolha operadores
+  Caso "+"
+  R <- N1 + n2
+  Caso "-"
+  R <- N1 - n2
+  Caso "/"
+  r <- N1 / N2
+  Caso "*"
+  R <- N1 * n2
+  Outrocaso
+  Escreva ("Comando invalido")
+  Fimescolha
+  escreva ("Resultado" , r)
+
+Fimalgoritmo
