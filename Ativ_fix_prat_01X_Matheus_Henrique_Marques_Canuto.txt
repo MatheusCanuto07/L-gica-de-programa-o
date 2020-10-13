@@ -1,0 +1,28 @@
+﻿Algoritmo "Ativ 01"
+//
+//
+// Descrição   : Matheus Henrique Marques canuto
+// Data atual  : 02/10/2020
+Var
+// Seção de Declarações das variáveis
+Quantidade_de_litros : real
+Km_por_litro : real
+Tempo_gasto : real
+Velocidade_media : real
+Distancia : real
+Litros_usados : real
+
+
+Inicio
+   escreval ("Olá, tudo bem? Esse software faz o calculo de quantos litros você vai usar para percorrer certa distancia. Por favor nos informe os dados a seguir:")
+   Escreva ("Tempo gasto(em hora exata): ")
+   Leia (tempo_gasto)
+   escreval ("Velocidade média(em Km): ")
+   Leia (velocidade_media)
+   Distancia <- Velocidade_media*tempo_gasto
+   litros_usados <- distancia/12
+   Escreva ("Distancia total percorrida (em km): ")
+   Escreval (distancia)
+   Escreva ("Quantidade de litros usados na viagem: ")
+   Escreval (litros_usados)
+   Fimalgoritmo
