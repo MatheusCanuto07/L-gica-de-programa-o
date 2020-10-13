@@ -1,0 +1,16 @@
+Algoritmo "ativ Aula 4" 
+// Autor(a) : Matheus Henrique Marques Canuto // Data atual : 02/10/2020 
+Var 
+// Seção de Declarações das variáveis 
+preco_unit , preco_total : real 
+quantidade : inteiro 
+Nome_da_empresa : caractere 
+Inicio 
+// Seção de Comandos, procedimento, funções, operadores, etc... escreva ("Nome da empresa: ") 
+leia (nome_da_empresa) 
+Escreva ("Digite o preço por unidade: ") 
+Leia (preco_unit) 
+escreva ("Digite a quantidade de produtos: ") 
+Leia (quantidade) 
+Preco_total <- preco_unit * quantidade 
+Escreva ("O preço total da venda foi: ",Preco_total) Fimalgoritmo

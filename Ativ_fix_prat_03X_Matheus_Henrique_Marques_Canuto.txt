@@ -1,0 +1,24 @@
+﻿aalgoritmo "Calculo do valor do carro"
+// Função :Calcular o valor de um carro
+// Autor :Matheus Henrique Marques Canuto
+// Data : 02/10/2020
+// Seção de Declarações
+var
+Fabrica : inteiro
+Distribuidor : real
+Imposto : real
+Total_taxa : real
+Valor_Do_Carro : real
+Valor_total : real
+inicio
+      distribuidor<-0.28
+      Imposto<-0.45
+      total_taxa<-Distribuidor+imposto
+      Escreva ("Olá,tudo bem, esse software faz o cálculo de quanto seu carro vai sair, baseado no valor de fabrica, qual o valor do mesmo?: ")
+      Leia (Fabrica)
+      Valor_Do_Carro<-total_taxa*fabrica
+      Valor_total<-Valor_do_Carro+fabrica
+      Escreva ("Seu carro vai sair por: ")
+      Escreval (Valor_total)
+
+fimalgoritmo
